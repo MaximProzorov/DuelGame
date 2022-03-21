@@ -33,7 +33,6 @@ namespace Game.Grains
 
         public override Task OnActivateAsync()
         {
-            //hubContext = GrainFactory.GetHub<IPlayerHub>();
             random = new Random();
             return base.OnActivateAsync();
         }
